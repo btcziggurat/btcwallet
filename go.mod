@@ -1,13 +1,7 @@
 module github.com/btcziggurat/btcwallet
 
 require (
-	github.com/btcziggurat/btcd v0.0.0-20190824003749-130ea5bddde3
 	github.com/btcsuite/btclog v0.0.0-20170628155309-84c8d2346e9f
-	github.com/btcziggurat/btcutil v0.0.0-20190425235716-9e5f4b9a998d
-	github.com/btcziggurat/btcwallet/wallet/txauthor v1.0.0
-	github.com/btcziggurat/btcwallet/wallet/txrules v1.0.0
-	github.com/btcziggurat/btcwallet/walletdb v1.0.0
-	github.com/btcziggurat/btcwallet/wtxmgr v1.0.0
 	github.com/btcsuite/websocket v0.0.0-20150119174127-31079b680792
 	github.com/davecgh/go-spew v1.1.1
 	github.com/golang/protobuf v1.2.0
