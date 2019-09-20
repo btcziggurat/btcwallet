@@ -3,13 +3,6 @@ module github.com/btcziggurat/btcwallet
 require (
 	github.com/btcsuite/btclog v0.0.0-20170628155309-84c8d2346e9f
 	github.com/btcsuite/websocket v0.0.0-20150119174127-31079b680792
-	github.com/btcziggurat/btcd v0.0.0-20190920221326-98bd826c2af4
-	github.com/btcziggurat/btcutil v0.0.0-20190920214945-09353eb50592
-	github.com/btcziggurat/btcwallet/wallet/txauthor v0.0.0-00010101000000-000000000000
-	github.com/btcziggurat/btcwallet/wallet/txrules v0.0.0-00010101000000-000000000000
-	github.com/btcziggurat/btcwallet/wallet/txsizes v0.0.0-00010101000000-000000000000 // indirect
-	github.com/btcziggurat/btcwallet/walletdb v0.0.0-00010101000000-000000000000
-	github.com/btcziggurat/btcwallet/wtxmgr v0.0.0-00010101000000-000000000000
 	github.com/davecgh/go-spew v1.1.1
 	github.com/golang/protobuf v1.2.0
 	github.com/jessevdk/go-flags v1.4.0
