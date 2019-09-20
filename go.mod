@@ -1,13 +1,13 @@
-module github.com/btcsuite/btcwallet
+module github.com/btcziggurat/btcwallet
 
 require (
-	github.com/btcsuite/btcd v0.0.0-20190824003749-130ea5bddde3
+	github.com/btcziggurat/btcd v0.0.0-20190824003749-130ea5bddde3
 	github.com/btcsuite/btclog v0.0.0-20170628155309-84c8d2346e9f
-	github.com/btcsuite/btcutil v0.0.0-20190425235716-9e5f4b9a998d
-	github.com/btcsuite/btcwallet/wallet/txauthor v1.0.0
-	github.com/btcsuite/btcwallet/wallet/txrules v1.0.0
-	github.com/btcsuite/btcwallet/walletdb v1.0.0
-	github.com/btcsuite/btcwallet/wtxmgr v1.0.0
+	github.com/btcziggurat/btcutil v0.0.0-20190425235716-9e5f4b9a998d
+	github.com/btcziggurat/btcwallet/wallet/txauthor v1.0.0
+	github.com/btcziggurat/btcwallet/wallet/txrules v1.0.0
+	github.com/btcziggurat/btcwallet/walletdb v1.0.0
+	github.com/btcziggurat/btcwallet/wtxmgr v1.0.0
 	github.com/btcsuite/websocket v0.0.0-20150119174127-31079b680792
 	github.com/davecgh/go-spew v1.1.1
 	github.com/golang/protobuf v1.2.0
@@ -22,14 +22,14 @@ require (
 	google.golang.org/grpc v1.18.0
 )
 
-replace github.com/btcsuite/btcwallet/walletdb => ./walletdb
+replace github.com/btcziggurat/btcwallet/walletdb => ./walletdb
 
-replace github.com/btcsuite/btcwallet/wtxmgr => ./wtxmgr
+replace github.com/btcziggurat/btcwallet/wtxmgr => ./wtxmgr
 
-replace github.com/btcsuite/btcwallet/wallet/txauthor => ./wallet/txauthor
+replace github.com/btcziggurat/btcwallet/wallet/txauthor => ./wallet/txauthor
 
-replace github.com/btcsuite/btcwallet/wallet/txrules => ./wallet/txrules
+replace github.com/btcziggurat/btcwallet/wallet/txrules => ./wallet/txrules
 
-replace github.com/btcsuite/btcwallet/wallet/txsizes => ./wallet/txsizes
+replace github.com/btcziggurat/btcwallet/wallet/txsizes => ./wallet/txsizes
 
 go 1.13
